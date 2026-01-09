@@ -25,6 +25,19 @@
     align-items: center;
     justify-content: center;
     gap:10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #30B868;
+    border: 1px solid yellowgreen;
+}
+
+header nav ul li a:hover{
+    color: #30B868;
+    font-size: large;
+    transition: 0.2s;
 }
 
 /* header er nav design */
@@ -174,6 +187,12 @@ justify-content: start;
     padding: 12.5px 16px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.521);
+}
+
+#banner .lower-div .btn-2:hover{
+background-color: rgb(0, 0, 0);
+color: greenyellow;
+transition: 0.3s;
 }
 
 /* hero-sectin design complete */
@@ -344,4 +363,71 @@ main #early-access .e-a-div .e-a-p2{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+
+/* Early Access Section finished */
+
+/* start footer section */
+
+footer{
+    background-color: #001931;
+    background-size: 100% 100%;
+    max-width: 1600px;
+    height: 348px;
+    margin: 0 auto;
+    padding: 120px 120px 30px 120px;
+    border-radius: 5px 5px 0px 0px;  /* emnite dichi... valo lagar jonno */   
+}
+
+footer #footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #footer-content .social-sites h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+footer #footer-content .social-sites .site-links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+}
+
+footer #footer-content .social-sites .site-links a{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    height: 22px;  /* 22px dile dim er moto ekta shape pawa jay tai emonta diyechi */
+    width: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+footer #footer-content .social-sites .site-links a:hover{
+transform: translateX(-2px);
+background-color: #001931;
+color: greenyellow;
+}
+
+footer hr{
+    margin: 80px 0 30px;
+    border: none;
+    border-top: 0.5px solid #2d4255;
+}
+
+footer .copy{
+    text-align: center;
+    color: #fafafa;
+    font-size: 16px;
+    line-height: 24px;
 }
