@@ -36,8 +36,10 @@ header{
 
 header nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 header nav img{
@@ -72,8 +74,10 @@ header nav ul li a{
     background-position: center;
     background-size: 100% 100%;
     height: 674px;
+    max-width: 1600px;
     padding: 134px 120px 134px;
     text-align: center;
+    margin:0 auto;
 }
 
 #banner .upr-div{
@@ -248,7 +252,6 @@ main #second-brain{
     justify-content: center;
     gap:30px;
     padding: 120px;
-    /* margin: 0 auto; */
 }
 
 main #second-brain .img-div{
@@ -303,3 +306,42 @@ main #second-brain .txt-div ul li{
 }
 
 /* Second Brain section finished*/
+
+/* Start Early Access Section */
+
+main #early-access{
+    padding: 2px 120px 120px;
+}
+
+main #early-access .e-a-div{
+    padding: 80px 385px;
+    max-width: 1360px;
+    margin:0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+main #early-access .e-a-div h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+main #early-access .e-a-div .e-a-p1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+
+main #early-access .e-a-div button{
+    display: flex;
+    margin: 24px auto 16px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+main #early-access .e-a-div .e-a-p2{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
