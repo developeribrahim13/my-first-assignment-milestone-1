@@ -177,7 +177,7 @@ justify-content: start;
 /* Now start Don't Fail section */
 
 main #do-not-fail{
-    padding: 60px 120px 120px;
+    padding: 60px 120px 0 120px;
     background-color: white;
 }
 
@@ -199,7 +199,8 @@ main #do-not-fail .dnt-f-d1 p{
 
 main #do-not-fail .card-content{
     display: flex;
-    justify-content: space-between;
+    gap:24px;
+    justify-content: center;
     align-items: center;
 }
 
@@ -207,12 +208,13 @@ main #do-not-fail .card-content .card{
     border-radius: 8px;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.05);
     text-align: center;
-    width: 300px;
+    width: 310px;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 24px;
 }
 
 main #do-not-fail .card-content .card img{
@@ -235,3 +237,69 @@ main #do-not-fail .card-content p{
     color: #627382;
     margin-bottom: 16px;
 }
+
+/* Notes/Don't Fail section finished*/
+
+/* Start second brain section */
+
+main #second-brain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    padding: 120px;
+    /* margin: 0 auto; */
+}
+
+main #second-brain .img-div{
+    background-image: url(../images/knowledge.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+main #second-brain .txt-div{
+    padding: 102px 180px 102px 25px;
+    width: 700px;
+}
+
+main #second-brain .txt-div span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+}
+
+main #second-brain .txt-div h1{
+    font-size: 48px;
+    font-weight: bold;;
+    color: #001931;
+    margin: 16px 0;
+}
+
+main #second-brain .txt-div p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+main #second-brain .txt-div ul{
+    font-size: 16px;
+    color: #627382;
+    font-weight: 500;
+    list-style: none;
+}
+
+main #second-brain .txt-div ul li{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap:5px;
+    margin-bottom: 16px;
+}
+
+/* Second Brain section finished*/
